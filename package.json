@@ -1,0 +1,16 @@
+{
+  "name": "webpackdemo",
+  "version": "1.0.0",
+  "description": "",   
+  "scripts": {   
+    "build": "webpack ./hello.js -o ./dist/bundle.js --mode development --display-entrypoints --progress --display-modules --display-error-details",
+    "debug":"node ./node_modules/webpack/bin/webpack.js ./hello.js -o ./dist/bundle.js --mode development --display-entrypoints --progress --display-modules --display-error-details" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  }
+}
