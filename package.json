@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",   
   "scripts": {   
-    "build": "webpack ./hello.js -o ./dist/bundle.js --mode development --display-entrypoints --progress --display-modules --display-error-details"
+    "build": "webpack ./hello.js hello.bundle.js --mode development --display-entrypoints --progress --display-modules --display-error-details"
   },
   "keywords": [],
   "author": "",
